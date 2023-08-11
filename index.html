@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/all.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 992px)">
+
+</head>
+<body>
+    <main>
+        <section id="section">
+            <div id="imagem">
+                <img src="imagens/tamanho-pequeno.jpg" alt="Imagem entrada prédio">
+            </div>
+
+            <div id="conteudo">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+
+            
+                <form action="cadastro.php" method="post" autocomplete="on">
+
+                    <div class="formulario">
+                            <label for="email"><span id="icone1" class="material-symbols-outlined">person</span></label></label>
+                            <input type="email" name="email" id="email">
+                    </div>
+                        
+                    <div class="formulario">
+                            <label for="senha"><span id="icone2" class="material-symbols-outlined">vpn_key</span></label>
+                            <input type="password" name="senha" id="senha">
+                    </div>
+
+                    <input id="entrar" type="submit" value="Entrar">
+                    <input id="esq-sen" type="submit" value="Esqueci a senha">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(to bottom, #5E3183, #4B939A);
+    height: 100vh;
+}
+
+main {
+    width: 50vw;
+    height: 60vh;
+}
+
+#section {
+    width: 80vw;
+    height: 45vh;
+
+    position: absolute;
+    left: 100%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+#imagem img{
+    width: 25vw;
+    height: 45.2vh;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#conteudo {
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    margin: 0px 15px 0px 15px;
+}
+
+.formulario {
+    width: 53vw;
+    margin-left: 5px;
+}
+
+.formulario input {
+    padding: 3px;
+    width: 46vw;
+    padding: 8px;
+}
+
+#entrar, #esq-sen {
+    width: 53.5vw;
+    margin-left: 5px;
+}

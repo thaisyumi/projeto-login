@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to bottom, #5E3183, #4B939A);
+    height: 100vh;
+}
+
+main {
+    width: 70vw;
+    height: 80vh;
+}
+
+#section {
+    width: 93vw;
+    height: 50vh;
+
+    position: absolute;
+    left: 71.5%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#imagem img{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 0px 10px 10px 0px;
+
+    position: absolute;
+    left: 84%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#conteudo {
+    width: 55vw;
+    
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    font-size: 2em;
+}
+
+p {
+    margin: 0px 15px 0px 15px;
+    font-size: 15px;
+}
+
+.formulario {
+    width: 48vw;
+    margin-left: 5px;
+}
+
+.formulario input {
+    padding: 3px;
+    width: 43vw;
+    padding: 8px;
+}
+
+#entrar, #esq-sen {
+    width: 48.5vw;
+    margin-left: 5px;
+}
