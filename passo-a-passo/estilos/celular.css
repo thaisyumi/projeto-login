@@ -107,6 +107,7 @@ form > a.botao {
     background-color: white;
     border: 1px solid #316a68;
     border-radius: 5px;
+    color: #316a68;
     margin-top: 5px;
     text-decoration: none;
 }
@@ -117,5 +118,5 @@ form > a.botao:hover {
 
 #esq-sen {
     font-size: 1em;
-    color: blue;
+    color: #316a68;
 }
