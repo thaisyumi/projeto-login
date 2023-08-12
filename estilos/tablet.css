@@ -9,7 +9,7 @@ main {
 }
 
 #section {
-    width: 80vw;
+    width: 90vw;
     height: 45vh;
 
     position: absolute;
@@ -21,7 +21,7 @@ main {
 #imagem img{
     width: 25vw;
     height: 45.2vh;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 #conteudo {

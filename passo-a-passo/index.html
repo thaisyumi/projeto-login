@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/celular.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 992px)">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!-- Foto -->
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                </p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <label for="email"><span class="material-icons">person</span></label>
+                        <input type="email" name="email" id="email" placeholder=" Seu e-mail" autocomplete="email" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="senha"><span class="material-icons">lock</span></label>
+                        <input type="password" name="senha" id="senha" placeholder=" Sua senha" autocomplete="current-password" required minlength="8" max="20">
+                    </div>
+
+                    <input type="submit" value="Enviar">
+                    <a href="esqueci.html" class="botao">Esqueci a senha <span id="esq-sen" class="material-icons">mail</span>
+                    </a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

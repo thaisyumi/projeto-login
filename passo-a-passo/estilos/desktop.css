@@ -1,0 +1,29 @@
+body, html {
+    background-image: linear-gradient(to bottom, #5F2C82, #49a09d);
+}
+
+#login {
+    width: 990px;
+    height: 55%;
+}
+
+#imagem {
+    float: right;
+    width: 48%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#formulario {
+    float: left;
+    width: 50%;
+}
+
+h1 {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    font-size: 1.4em;
+}

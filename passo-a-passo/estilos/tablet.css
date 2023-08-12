@@ -1,0 +1,26 @@
+body, html {
+    background-image: linear-gradient(to bottom, #5F2C82, #49a09d);
+    background-repeat: no-repeat;
+}
+
+#login {
+    width: 80vw;
+    height: 42vh;
+}
+
+#imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#formulario {
+    float: left;
+    width: 65%;
+}
+
+p {
+    margin: 10px;
+    font-size: .9em;
+}
